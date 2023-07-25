@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fashion Blog Template Clone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <div class="navbar">
+        <a href="#" class="nav-button"><i class="fa fa-facebook-official"></i></a>
+        <a href="#" class="nav-button"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="nav-button"><i class="fa fa-snapchat"></i></a>
+        <a href="#" class="nav-button"><i class="fa fa-flickr"></i></a>
+        <a href="#" class="nav-button"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="nav-button"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="nav-button right"><i class="fa fa-search"></i></a>
+    </div>
+    <!--NAVBAR-->
+    <!--HEADER-->
+    <div class="header">
+        <div class="container">
+            <h1>JANE BLOGLIFE</h1>
+            <h5>Welcome to the blog of <span class="bg-black" style="color: white; padding: 0px 8px;">Jane's world</span></h5>
+        </div>
+    </div>
+    <!--HEADER-->
+    <!--IMG HEADER-->
+    <div class="img-header">
+        <img src="images/jane.jpg" width="1600" height="1060">
+        <div class="container">
+            <h2>Jane's</h2>
+            <h1>FASHION BLOG</h1>
+            <a href="#" class="subscribe-button">SUBSCRIBE</a>
+        </div>
+    </div>
+    <!--IMG HEADER-->
+    <div class="row">
+        <!--MAIN-->
+        <div class="main">
+            <div class="main-content">
+                <div class="content-title">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, May 2, 2016</h5>
+                </div>
+                <div class="content-body">
+                    <img src="images/girl_hat.jpg">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta iusto corporis id
+                        voluptas!
+                        Perspiciatis eum ea aliquam in natus quas minima non dolorem esse facilis, sunt consequatur
+                        autem
+                        quos eos commodi officiis, a sed cupiditate nam vel voluptate similique doloribus, alias ab.
+                        Fugiat
+                        vitae, maiores architecto ullam vel delectus!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quia ipsa nesciunt odit,
+                        officiis
+                        distinctio iure labore dolores suscipit quas!</p>
+                    <div class="button-container">
+                        <button class="like-button" onclick="likeFunction(this)">
+                            <b><i class="fa fa-thumbs-up"> Like</i></b>
+                        </button>
+                        <button id="myBtn" class="replies-button right" onclick="myFunction('demo1')">
+                            <b href="#">Replies <span class="replies-number">1</span></b>
+                        </button>
+                    </div>
+                    <div class="comment-section" id="demo1" style="display: none;">
+                        <hr>
+                        <div class="comment">
+                            <div class="comment-img">
+                                <img src="images/avatar_smoke.jpg">
+                            </div>
+                            <div class="comment-text">
+                                <h2>George <span>May 3, 2015, 6:32 PM</span></h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="content-title">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, April 23, 2016</h5>
+                </div>
+                <div class="content-body">
+                    <img src="images/man_hat.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ipsam.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ea ipsam quos obcaecati officia
+                        a, atque maxime blanditiis, ipsum assumenda quaerat velit vel neque ratione exercitationem
+                        consequuntur vero dignissimos! Ipsa!</p>
+                    <div class="button-container">
+                        <button class="like-button" onclick="likeFunction(this)">
+                            <b><i class="fa fa-thumbs-up"></i> Like</b>
+                        </button>
+                        <button id="myBtn" class="replies-button right" onclick="myFunction('demo2')">
+                            <b href="#">Replies <span class="replies-number">2</span></b>
+                        </button>
+                    </div>
+                    <div class="comment-section" id="demo2" style="display: ;">
+                        <hr>
+                        <div class="comment">
+                            <div class="comment-img">
+                                <img src="images/girl_train.jpg">
+                            </div>
+                            <div class="comment-text">
+                                <h2>Amber <span>April 26, 2015, 10:52 PM</span></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate rem qui,
+                                    dolores facere minus ducimus explicabo asperiores quaerat. Accusantium!</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment-img">
+                                <img src="images/girl.jpg">
+                            </div>
+                            <div class="comment-text">
+                                <h2>Angie <span>April 23, 2015, 9:12 PM</span></h2>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="content-title">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, April 7, 2016</h5>
+                </div>
+                <div class="content-body">
+                    <img src="images/runway.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ipsam.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ea ipsam quos obcaecati officia
+                        a, atque maxime blanditiis, ipsum assumenda quaerat velit vel neque ratione exercitationem
+                        consequuntur vero dignissimos! Ipsa!</p>
+                    <div class="button-container">
+                        <button class="like-button" onclick="likeFunction(this)">
+                            <b><i class="fa fa-thumbs-up"></i> Like</b>
+                        </button>
+                        <button id="myBtn" class="replies-button right" onclick="myFunction('demo3')">
+                            <b href="#">Replies <span class="replies-number">3</span></b>
+                        </button>
+                    </div>
+                    <div class="comment-section" id="demo3" style="display: none;">
+                        <hr>
+                        <div class="comment">
+                            <div class="comment-img">
+                                <img src="images/girl_mountain.jpg">
+                            </div>
+                            <div class="comment-text">
+                                <h2>Amber <span>April 10, 2015, 7:22 PM</span></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate rem qui,
+                                    dolores facere minus ducimus explicabo asperiores quaerat. Accusantium!</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment-img">
+                                <img src="images/boy.jpg">
+                            </div>
+                            <div class="comment-text">
+                                <h2>Angie <span>April 8, 2015, 10:32 PM</span></h2>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment-img">
+                                <img src="images/girl_hood.jpg">
+                            </div>
+                            <div class="comment-text">
+                                <h2>Angie <span>April 7, 2015, 9:12 PM</span></h2>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MAIN-->
+        <!--SIDE-->
+        <div class="side">
+            <div class="about-me">
+                <img src="images/avatar_girl2.jpg">
+                <div class="text">
+                    <h2>My name</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, quas quidem neque eligendi
+                            rerum ipsam. Incidunt sed iusto labore enim!</p>
+                </div>
+            </div>
+            <div id="popular-posts" class="side-contents">
+                <div class="side-header">
+                    <h2>Popular Posts</h2>
+                </div>
+                <ul>
+                    <li class="post">
+                        <img src="images/avatar_smoke.jpg">
+                        <span>Denim</span>
+                        <br>
+                        <span>Lorem, ipsum dolor.</span>
+                    </li>
+                    <li class="post">
+                        <img src="images/bandmember.jpg">
+                        <span>Sweater</span>
+                        <br>
+                        <span>Lorem, ipsum dolor.</span>
+                    </li>
+                    <li class="post">
+                        <img src="images/workshop.jpg">
+                        <span>Workshop</span>
+                        <br>
+                        <span>Lorem, ipsum.</span>
+                    </li>
+                    <li class="post">
+                        <img src="images/avatar_smoke.jpg">
+                        <span>Trends</span>
+                        <br>
+                        <span>Lorem, ipsum dolor.</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="advertise" class="side-contents">
+                <div class="side-header">
+                    <h2>Advertise</h2>
+                </div>
+                <div class="container">
+                    <div class="ad-container">
+                        <span>Your AD Here</span>
+                    </div>
+                </div>
+            </div>
+            <div id="tags" class="side-contents">
+                <div class="side-header">
+                    <h2>Tags</h2>
+                </div>
+                <div class="container">
+                    <p>
+                        <span class="tag" style="background-color: black; color: white;">Fashion</span>
+                        <span class="tag">New York</span>
+                        <span class="tag">London</span>
+                        <span class="tag">Hats</span>
+                        <span class="tag">Norway</span>
+                        <span class="tag">Sweaters</span>
+                        <span class="tag">Ideas</span>
+                        <span class="tag">Deals</span>
+                        <span class="tag">Accessories</span>
+                        <span class="tag">News</span>
+                        <span class="tag">Clothing</span>
+                        <span class="tag">Shopping</span>
+                        <span class="tag">Jeans</span>
+                        <span class="tag">Trends</span>
+                    </p>
+                </div>
+            </div>
+            <div id="inspiration" class="side-contents">
+                <div class="side-header">
+                    <h2>Inspiration</h2>
+                </div>
+                <div class="container">
+                    <img src="images/jeans.jpg">
+                    <img src="images/avatar_hat.jpg">
+                    <img src="images/team1.jpg">
+                    <img src="images/team4.jpg">
+                </div>
+            </div>
+            <div id="follow" class="side-contents">
+                <div class="side-header">
+                    <h2>Follow Me</h2>
+                </div>
+                <div class="container">
+                    <a href="#"><i class="fa fa-facebook-official"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-snapchat"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div id="subscribe" class="side-contents">
+                <div class="side-header">
+                    <h2>Subscribe</h2>
+                </div>
+                <div class="container">
+                    <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                    <p>
+                        <input type="email" name="email" placeholder="Enter e-mail">
+                    </p>
+                    <p>
+                        <button>Subscribe</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--SIDE-->
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+        <button><a href="#"><i class="fa fa-arrow-up"></i> To the top</a></button>
+        <p>Powered by <a href="#">w3.css</a></p>
+        <p class="credits">Coded by Zhenyong Shin</p>
+    </div>
+    <!--FOOTER-->
+    <script src="script.js"></script>
+</body>
+
+</html>
